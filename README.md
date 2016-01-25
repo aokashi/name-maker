@@ -19,7 +19,7 @@
 
 # 添付しているcsvデータについて
 - 日本地名：日本にありそうな地名を生成します
-- 海外地名：ヒラリラーの名前生成機(http://hirarira.net/namemaker)に近い生成パターンで生成します
+- 海外地名：[ヒラリラーの名前生成機](http://hirarira.net/namemaker)に近い生成パターンで生成します
 
 # Thanks
 - ヒラリラー(http://hirarira.net) - 名前生成プログラムのベースの提供
