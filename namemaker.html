@@ -2,14 +2,20 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<script type="text/javascript" src="./makename_jpn.js"></script>
-	<title>名前自動生成 日本地名対応版</title>
+	<script type="text/javascript" src="./namemaker.js"></script>
+	<title>名前自動生成</title>
 </head>
 <body>
-	<h1>名前自動生成機 日本地名対応版</h1>
+	<h1>名前自動生成機</h1>
 	<p>めちゃくちゃな名前になるのは仕様</p>
 	<form name="name_form">
 		<ul>
+			<li>ベースファイル：
+				<select name="base_file">
+					<option value="jpn_lib.csv" selected>日本地名</option>
+					<option value="oversea_lib.csv">海外地名</option>
+				</select>
+			</li>
 			<li>作成件数：
 				<select name="o_num">
 					<option value=10>10</option>
@@ -25,7 +31,6 @@
 			<input type="reset" name="" value="クリア">
 		</div>
 		<div>
-			ここに生成されます：<br>
 			<textarea name="result" rows="35" cols="50"></textarea>
 		</div>
 	</form>
